@@ -1,0 +1,70 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #1b2b4a;
+  --color-ink-soft: #4a5875;
+  --color-flour: #f6f8f5;
+  --color-paper: #ffffff;
+  --color-crust: #e8d5b0;
+  --color-tomato: #d6402b;
+  --color-tomato-deep: #b4311f;
+  --color-basil: #2e6b45;
+  --color-basil-soft: #e4efe8;
+  --color-cheese: #f2b84b;
+  --color-line: #d9dfd6;
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-flour);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-cheese);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* The builder's toppings drop onto the pizza one at a time. */
+@keyframes topping-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-14px) scale(1.25);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.topping-drop {
+  animation: topping-drop 0.28s ease-out both;
+}

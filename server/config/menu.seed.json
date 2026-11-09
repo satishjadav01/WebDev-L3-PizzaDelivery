@@ -1,0 +1,80 @@
+{
+  "pizzas": [
+    {
+      "key": "margherita",
+      "name": "Margherita",
+      "description": "Tomato sauce, mozzarella and fresh tomato on a classic hand-tossed base.",
+      "priceMinor": 19900,
+      "ingredients": ["base-classic", "sauce-tomato", "cheese-mozzarella", "veg-tomato"]
+    },
+    {
+      "key": "farmhouse",
+      "name": "Farmhouse",
+      "description": "Onion, capsicum, mushroom and tomato piled on a classic base.",
+      "priceMinor": 27900,
+      "ingredients": [
+        "base-classic",
+        "sauce-tomato",
+        "cheese-mozzarella",
+        "veg-onion",
+        "veg-capsicum",
+        "veg-mushroom",
+        "veg-tomato"
+      ]
+    },
+    {
+      "key": "paneer-tikka",
+      "name": "Paneer Tikka",
+      "description": "Smoky barbecue sauce with paneer, onion and capsicum on thin crust.",
+      "priceMinor": 29900,
+      "ingredients": [
+        "base-thin",
+        "sauce-bbq",
+        "cheese-cheddar",
+        "veg-paneer",
+        "veg-onion",
+        "veg-capsicum"
+      ]
+    },
+    {
+      "key": "mexican-wave",
+      "name": "Mexican Wave",
+      "description": "Peri peri sauce, jalapeño, sweet corn and olives for a spicy kick.",
+      "priceMinor": 28900,
+      "ingredients": [
+        "base-whole-wheat",
+        "sauce-peri-peri",
+        "cheese-cheddar",
+        "veg-jalapeno",
+        "veg-sweet-corn",
+        "veg-olives"
+      ]
+    },
+    {
+      "key": "garden-pesto",
+      "name": "Garden Pesto",
+      "description": "Basil pesto, parmesan, spinach and mushroom on a multigrain base.",
+      "priceMinor": 31900,
+      "ingredients": [
+        "base-multigrain",
+        "sauce-pesto",
+        "cheese-parmesan",
+        "veg-spinach",
+        "veg-mushroom"
+      ]
+    },
+    {
+      "key": "cheese-burst-supreme",
+      "name": "Cheese Burst Supreme",
+      "description": "Molten cheese-filled crust with white garlic sauce, baby corn and olives.",
+      "priceMinor": 34900,
+      "ingredients": [
+        "base-cheese-burst",
+        "sauce-white",
+        "cheese-mozzarella",
+        "veg-baby-corn",
+        "veg-olives"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "key": "base-classic",
+      "category": "base",
+      "name": "Classic Hand-Tossed",
+      "priceMinor": 8000,
+      "quantity": 100
+    },
+    {
+      "key": "base-thin",
+      "category": "base",
+      "name": "Thin Crust",
+      "priceMinor": 9000,
+      "quantity": 100
+    },
+    {
+      "key": "base-cheese-burst",
+      "category": "base",
+      "name": "Cheese Burst",
+      "priceMinor": 12000,
+      "quantity": 100
+    },
+    {
+      "key": "base-whole-wheat",
+      "category": "base",
+      "name": "Whole Wheat",
+      "priceMinor": 10000,
+      "quantity": 100
+    },
+    {
+      "key": "base-multigrain",
+      "category": "base",
+      "name": "Multigrain",
+      "priceMinor": 11000,
+      "quantity": 100
+    },
+
+    {
+      "key": "sauce-tomato",
+      "category": "sauce",
+      "name": "Classic Tomato",
+      "priceMinor": 2000,
+      "quantity": 100
+    },
+    {
+      "key": "sauce-pesto",
+      "category": "sauce",
+      "name": "Basil Pesto",
+      "priceMinor": 3000,
+      "quantity": 100
+    },
+    {
+      "key": "sauce-bbq",
+      "category": "sauce",
+      "name": "Smoky Barbecue",
+      "priceMinor": 2500,
+      "quantity": 100
+    },
+    {
+      "key": "sauce-white",
+      "category": "sauce",
+      "name": "Creamy White Garlic",
+      "priceMinor": 3000,
+      "quantity": 100
+    },
+    {
+      "key": "sauce-peri-peri",
+      "category": "sauce",
+      "name": "Peri Peri",
+      "priceMinor": 2500,
+      "quantity": 100
+    },
+
+    {
+      "key": "cheese-mozzarella",
+      "category": "cheese",
+      "name": "Mozzarella",
+      "priceMinor": 4000,
+      "quantity": 100
+    },
+    {
+      "key": "cheese-cheddar",
+      "category": "cheese",
+      "name": "Cheddar",
+      "priceMinor": 4500,
+      "quantity": 100
+    },
+    {
+      "key": "cheese-parmesan",
+      "category": "cheese",
+      "name": "Parmesan",
+      "priceMinor": 5000,
+      "quantity": 100
+    },
+    {
+      "key": "cheese-vegan",
+      "category": "cheese",
+      "name": "Vegan Cheese",
+      "priceMinor": 6000,
+      "quantity": 100
+    },
+
+    {
+      "key": "veg-onion",
+      "category": "veggie",
+      "name": "Onion",
+      "priceMinor": 1000,
+      "quantity": 100
+    },
+    {
+      "key": "veg-capsicum",
+      "category": "veggie",
+      "name": "Capsicum",
+      "priceMinor": 1500,
+      "quantity": 100
+    },
+    {
+      "key": "veg-tomato",
+      "category": "veggie",
+      "name": "Tomato",
+      "priceMinor": 1000,
+      "quantity": 100
+    },
+    {
+      "key": "veg-mushroom",
+      "category": "veggie",
+      "name": "Mushroom",
+      "priceMinor": 2500,
+      "quantity": 100
+    },
+    {
+      "key": "veg-olives",
+      "category": "veggie",
+      "name": "Black Olives",
+      "priceMinor": 2500,
+      "quantity": 100
+    },
+    {
+      "key": "veg-jalapeno",
+      "category": "veggie",
+      "name": "Jalapeño",
+      "priceMinor": 2000,
+      "quantity": 100
+    },
+    {
+      "key": "veg-sweet-corn",
+      "category": "veggie",
+      "name": "Sweet Corn",
+      "priceMinor": 1500,
+      "quantity": 100
+    },
+    {
+      "key": "veg-paneer",
+      "category": "veggie",
+      "name": "Paneer",
+      "priceMinor": 3000,
+      "quantity": 100
+    },
+    {
+      "key": "veg-baby-corn",
+      "category": "veggie",
+      "name": "Baby Corn",
+      "priceMinor": 2000,
+      "quantity": 100
+    },
+    {
+      "key": "veg-spinach",
+      "category": "veggie",
+      "name": "Spinach",
+      "priceMinor": 1500,
+      "quantity": 100
+    }
+  ]
+}

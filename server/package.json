@@ -1,0 +1,51 @@
+{
+  "name": "pizza-delivery-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "REST API for the pizza delivery platform",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev:local": "node tools/devLocal.js",
+    "dev:memory": "node tools/devMemory.js",
+    "db:start": "node tools/localMongo.js start",
+    "db:stop": "node tools/localMongo.js stop",
+    "db:status": "node tools/localMongo.js status",
+    "seed": "node --env-file-if-exists=.env src/scripts/seed.js",
+    "create-admin": "node --env-file-if-exists=.env src/scripts/createAdmin.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node tests/support/runWithMongo.js",
+    "test:watch": "node tests/support/runWithMongo.js watch"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.1.1",
+    "pino": "^10.4.0",
+    "pino-http": "^11.0.0",
+    "razorpay": "^2.9.8",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "mongodb-memory-server": "^11.3.0",
+    "pino-pretty": "^13.2.0",
+    "prettier": "^3.9.10",
+    "supertest": "^7.3.1",
+    "vitest": "^5.0.4"
+  }
+}
